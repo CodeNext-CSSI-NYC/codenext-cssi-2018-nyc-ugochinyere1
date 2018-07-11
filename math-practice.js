@@ -14,13 +14,11 @@ const r = 25;
 var quotient= 91%13;
 console.log(0==quotient);
 // 2. What is the result when the q divided by r is rounded to the nearest integer?
-var q;
-var r;
+
 var result= q/r;
 console.log(result==math.round);
 // 3. Is the product of p and r greater than q squared? (The answer should be either true or false)
-var q;
-var r;
+
 var product= p*r;
 var productExp= q**;
 console.log(product>productExp);
