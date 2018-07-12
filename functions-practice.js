@@ -55,14 +55,14 @@ whichIsGreater(0,5);
 
 // 4a. Write (declare) a function that takes one parameter called name and
 // returns (not prints out, just returns) the string "Hello ____", with the name in the blank.
- var readline = require("readline-sync");
+var readline = require("readline-sync");
 
- function sayHello(name = readline.question(" Hi, what is your name?: ")){
-   //var name
-   return "hello" + name;
- }
+function sayHello(name = readline.question(" Hi, what is your name?: ")) {
+  //var name
+  return "hello" + name;
+}
 
-  sayHello();
+sayHello();
 
 
 
@@ -75,7 +75,7 @@ whichIsGreater(0,5);
 // returns (not prints out, just returns) the average of the parameters.
 
 //function findAverageOfTwo(num1,num2){
-  //return (num1 + num2)/2;
+//return (num1 + num2)/2;
 }
 
 //console.log(findAverageOfTwo(5,6));
