@@ -132,6 +132,7 @@ function squareNumbers() {
     console.log(squares);
   }
 }
+squareNumbers();
 // Do NOT use the number 6 (or 5) in your for loop.
 // Instead, use the length of the array in the condition portion (the 2nd part) of the for loop.
 // (Yes, this is the same as the last 2 times. This is super important.)
@@ -144,13 +145,13 @@ function squareNumbers() {
 
 
 // 7. Make an array that contains six numbers. Feel free to use the same one.
-var moreNums = [44, 22, 87, 99, 99, 100];
+//var moreNums = [44, 22, 87, 99, 99, 100];
 // Also make a new, separate empty array called reverse.
-var reverse = [];
+//var reverse = [];
 // Set up a for loop that will iterate (go through) the array, but BACKWARDS.
-for (var i = moreNums.length - 1; i >= 0; i--;) {
-  moreNums.push reverse
-}
+//for (var i = moreNums.length - 1; i >= 0; i--) {
+//  moreNums.push reverse
+//}
 // This means, rather than i = 0; i < arr.length; i++
 // You will instead do: i = arr.length - 1; i >= 0; i--
 // Make sure that you 110% understand that previous line, because it is very important. Ask questions.
