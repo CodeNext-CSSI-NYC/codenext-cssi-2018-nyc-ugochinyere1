@@ -39,9 +39,9 @@ function guessPassword() {
 guessPassword();
 */
 // 2. Make a for loop that prints out the numbers from 0 to 9.
-for (var i = 0; i <= 9; i++) {
-  console.log(i);
-}
+//for (var i = 0; i <= 9; i++) {
+//  console.log(i);
+//}
 
 // 3. Make a for loop that prints out the even numbers from 0 to 100.
 // Note that there are two ways to do this. One way is to use i += 2 instead of i++.
@@ -49,19 +49,33 @@ for (var i = 0; i <= 9; i++) {
 // The other way is to use an if statement inside the for loop that only prints
 // even numbers. Make sure you can do it both ways. (As in, actually do it both ways.)
 
-for (var i = 0; i <= 100; i++) {
-  console.log(i++);
-}
+//for (var i = 0; i <= 100; i++) {
+//console.log(i++);
+//}
 
 // 4. Make a variable called sum that is equal to 0.
 // Keep asking the user to enter in numbers until all of the numbers they have typed in
 // add up to more than 100 in total.
 // For example, it might end after two times through the loop if I type 77, 44.
 // But it might take many more attempts if I type 1, 1, 1, 1, 1 ....
-
-
+/*
+var readline = require("readline-sync");
+var sum = 0;
+var userNums;
+while (sum < 100) {
+  userNums = parseInt(readline.question("Enter a number: "));
+  console.log(sum += userNums);
+}
 
 // 5a. Use a loop to make this pattern:
+
+function addAstrik() {
+
+  for (var total = 0; total < 5; total++) {
+
+  }
+}
+*/
 // *
 // **
 // ***
@@ -71,6 +85,15 @@ for (var i = 0; i <= 100; i++) {
 
 
 // 5b. Use a loop to make this pattern:
+/*
+function drawStars() {
+  var stars = "***********";
+  for (var i = 0; i < stars.length; i++) {
+    console.log(stars);
+  }
+}
+drawStars();
+*/
 // ***********
 //
 // ***********
@@ -94,7 +117,12 @@ for (var i = 0; i <= 100; i++) {
 // Inside the for loop, store the corresponding letter for each index in a variable called letter.
 // Then, print out the toLowerCase() version of each letter.
 // You should see the alphabet, in lower case, with a new letter on each line.
-
+let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var letter;
+for (var i = 0; i < alphabet.length; i++) {
+  letter = toLowerCase(alphabet[i]);
+  console.log(letter);
+}
 
 
 // 7. Last time we listed out all of the factors of a number.
