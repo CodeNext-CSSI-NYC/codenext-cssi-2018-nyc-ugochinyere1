@@ -36,20 +36,31 @@ console.log(myObjValues[1]);
 
 
 // 2. Create an object that contains any key-value pairs you want.
-var bsf = ["Mckenzie", "Marcel"];
-var bros
+
+
 var aboutMe = {
   name: "Ugochinyere",
   age: 14.6,
-  aboutMe.bsf
+  bsf: ["Mckenzie", "Marcel"],
+  nationality: "Nigerian",
+  siblings: true
 };
 // Print it out, make sure it looks right.
+console.log(aboutMe);
 // Delete one of the key-value pairs.
+delete aboutMe.siblings;
 // Add a new one.
+aboutMe.howMany = 3;
 // Change the value associated with one of the existing keys.
+aboutMe.bsf[1] = "King";
 // Print it out again. Does it look as you expected?
+console.log(aboutMe);
 // Store one of the values from the object into a variable called myVal.
+var values = Object.values(aboutMe);
+var myVal = values;
+console.log(myVal[3]);
 // Print out another value from the object.
+console.log(myVal[4]);
 // The purpose of the previous two things is to make sure you know both ways to
 // access values in objects using keys. Make sure you can do both.
 
