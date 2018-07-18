@@ -34,13 +34,23 @@ for (let i = 0; i < numRowsCols; i++) {
 
 // 1. Try to make this one. Hint: you will need to compare i and j in order to
 // decide when to add * onto the strings that represent each row.
-let rowAndCols = 6;
-for (var i = 0; i < rowsAndCols; i++) {
-  let row = "";
-  for (var j = 0; j < rowsAndCols; j++) {
-    rowsAndCols[i]
+//var userNums;
+//while (sum < 100) {
+//  userNums = parseInt(readline.question("Enter a number: "));
+//  console.log(sum += userNums);
+//}
+
+function addAstrik() {
+  var astrik = "*";
+  var total = "";
+  var rows = 8;
+  for (var i = 1; i < rows; i++) {
+    total += astrik;
+    console.log(total);
   }
 }
+addAstrik();
+
 // *
 // **
 // ***
@@ -52,6 +62,16 @@ for (var i = 0; i < rowsAndCols; i++) {
 
 
 // 2. Try to figure out how to draw a "border" pattern:
+
+makeFunction() {
+  var letterX = ;
+
+
+
+
+
+
+}
 
 // XXXXXXXX
 // X------X
