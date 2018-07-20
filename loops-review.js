@@ -85,7 +85,7 @@ function addAstrik() {
 
 
 // 5b. Use a loop to make this pattern:
-/*
+
 function drawStars() {
   var stars = "***********";
   for (var i = 0; i < stars.length; i++) {
@@ -93,7 +93,7 @@ function drawStars() {
   }
 }
 drawStars();
-*/
+
 // ***********
 //
 // ***********

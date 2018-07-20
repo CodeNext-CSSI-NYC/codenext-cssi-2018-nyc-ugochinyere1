@@ -10,11 +10,18 @@ let randomInt = require('random-int');
 let wordsToPickFrom = words.filter(word => word.length == 7 || word.length == 8);
 
 // Let's make a hangman game. Step 1 is to randomly choose a word from wordsToPickFrom
-wordsToPickFrom[]
-
+var randomIndex = randomInt(0, wordsToPickFrom.length);
+var randomWord = (wordsToPickFrom[randomIndex]);
 // Use the random-int package and pick a random index from wordsToPickFrom
 
 // We will use an array to track the letters that the user has guessed so far.
+
+var wordLetters = [];
+while (wordLetters.length != randomWord.length) {
+  wordLetters.push("_");
+}
+
+}
 // At the start, for a seven letter word that array will look like this:
 // ["_", "_", "_", "_", "_", "_", "_"]
 // Go ahead and create this array using a for loop. Note that its length will
@@ -28,6 +35,19 @@ wordsToPickFrom[]
 // _ U _ _ _ _ _
 // (use join to make a string that looks like that)
 // Call your functions with a few different tracker arrays to make sure it works
+
+function render() {
+  var toLowerCase(userLetter) = readline.question("Heyy, guess a letter: ")
+  if (randomWord.indexOf(userLetter) >= 0) {
+    indexof(wordLetters)
+  }
+
+
+  if userLetter == randomWord[i] {
+
+  }
+  console.log(wordLetters);
+}
 
 // The main part of the game is:
 // Ask the user to guess a letter
