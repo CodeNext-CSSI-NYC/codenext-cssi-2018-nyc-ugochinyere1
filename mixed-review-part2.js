@@ -80,16 +80,22 @@ duckDuckGoose();
 // Write a function that has two parameters -- an array of strings and a letter
 // -- and returns true if every string in the array starts with that letter.
 // Otherwise it returns false.
-function sameStart(arr, letter) {
-
-  var namesWithM = ["Melany", "Marcel", "Mckenzie"];
-  var startsWith
-  for (var i = 0; i < namesWithM.length; i++) {
-    for (var i = 0; i < array.length; i++) {
-      if (.startWith(letter))
-    }
-  }
-}
+// var namesWithM = ["Melany", "Marcel", "Mckenzie"];
+//
+// function sameStart(arr, letter) {
+//
+//   for (var i = 0; i < namesWithM.length; i++) {
+//     for (var i = 0; i < arr.length; i++) {
+//       if (arr.startsWith(letter, [0])) {
+//         return true;
+//       } else {
+//         console.log("false");
+//       }
+//     }
+//   }
+// }
+//
+// sameStart(namesWithM, "M");
 // These should print true
 // console.log(sameStart(["bear", "ball"], "b") == true);
 // console.log(sameStart(["bear", "call"], "c") == false);
@@ -100,79 +106,83 @@ function sameStart(arr, letter) {
 // Write a function that has one parameter -- a single letter --
 // and returns true if it's a capital letter.
 function isCapital(letter) {
+  var alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q"
+    "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+  ];
+  var index = alphabet.indexOf();
+  if (letter ==
+  }
+  // These should print true
+  // console.log(isCapital("B") == true);
+  // console.log(isCapital("x") == false);
 
-}
-// These should print true
-// console.log(isCapital("B") == true);
-// console.log(isCapital("x") == false);
-
-//assements tru,otherpartfalse
-
-
-// Write a function that finds all words (in the array at the top) that have
-// the same second and third letter and returns them in an array.
-// Hint: You need to first check to make sure the word actually has three letters.
-function repeatedLetter() {
-
-}
-// These should print true
-// console.log(repeatedLetter().includes("assessments") == true);
-// console.log(repeatedLetter().includes("from") == true);
+  //assements tru,otherpartfalse
 
 
+  // Write a function that finds all words (in the array at the top) that have
+  // the same second and third letter and returns them in an array.
+  // Hint: You need to first check to make sure the word actually has three letters.
+  function repeatedLetter() {
 
-
-// Write a function that takes a number as a parameter and returns whether or not
-// that number is exactly one away from a multiple of 10.
-function oneAway(num) {
-  // Hint: One approach is to start by converting a number to a string like this:
-  // let numStr = "" + num;
-  // Then you want to look at a specific spot in that string.
-  // Hint2: A different approach involves using %
-}
-// These should all print true
-// console.log(oneAway(101) == true);
-// console.log(oneAway(79) == true);
-// console.log(oneAway(60) == false);
-// console.log(oneAway(1145) == false);
+  }
+  // These should print true
+  // console.log(repeatedLetter().includes("assessments") == true);
+  // console.log(repeatedLetter().includes("from") == true);
 
 
 
 
-// Write a function with one parameter (a number) that returns how many times
-// you need to divide the number by 2 for the answer to be less than 2.
-// For example, if we start with 100:
-// 100 / 2 = 50
-// 50 / 2 = 25
-// 25 / 2 = 12.5
-// 12.5 / 2 = 6.25
-// 6.25 / 2 = 3.125
-// 3.125 / 2 = 1.5625
-// So in this case your function would return 6, since we had to divide by 2
-// six times to get an answer that was less than 2.
-function log2(num) {
-
-}
-// I called this log2 because this is very similar to finding "log base 2" of a number.
-// These should all print true
-// console.log(log2(100) == 6);
-// console.log(log2(1000) == 9);
+  // Write a function that takes a number as a parameter and returns whether or not
+  // that number is exactly one away from a multiple of 10.
+  function oneAway(num) {
+    // Hint: One approach is to start by converting a number to a string like this:
+    // let numStr = "" + num;
+    // Then you want to look at a specific spot in that string.
+    // Hint2: A different approach involves using %
+  }
+  // These should all print true
+  // console.log(oneAway(101) == true);
+  // console.log(oneAway(79) == true);
+  // console.log(oneAway(60) == false);
+  // console.log(oneAway(1145) == false);
 
 
 
 
-// Write a function that has one parameter: a 2D Array.
-// Return true if any of the rows have the number 9 two or more times.
-function rowHasMultiple9s(arr) {
+  // Write a function with one parameter (a number) that returns how many times
+  // you need to divide the number by 2 for the answer to be less than 2.
+  // For example, if we start with 100:
+  // 100 / 2 = 50
+  // 50 / 2 = 25
+  // 25 / 2 = 12.5
+  // 12.5 / 2 = 6.25
+  // 6.25 / 2 = 3.125
+  // 3.125 / 2 = 1.5625
+  // So in this case your function would return 6, since we had to divide by 2
+  // six times to get an answer that was less than 2.
+  function log2(num) {
 
-}
-// Should be true
-// console.log(rowHasMultiple9s([
-//   [1, 2, 9],
-//   [9, 2, 9]
-// ]));
-// Should be false
-// console.log(rowHasMultiple9s([
-//   [1, 2, 9],
-//   [9, 2, 3]
-// ]));
+  }
+  // I called this log2 because this is very similar to finding "log base 2" of a number.
+  // These should all print true
+  // console.log(log2(100) == 6);
+  // console.log(log2(1000) == 9);
+
+
+
+
+  // Write a function that has one parameter: a 2D Array.
+  // Return true if any of the rows have the number 9 two or more times.
+  function rowHasMultiple9s(arr) {
+
+  }
+  // Should be true
+  // console.log(rowHasMultiple9s([
+  //   [1, 2, 9],
+  //   [9, 2, 9]
+  // ]));
+  // Should be false
+  // console.log(rowHasMultiple9s([
+  //   [1, 2, 9],
+  //   [9, 2, 3]
+  // ]));

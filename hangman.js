@@ -43,8 +43,8 @@ function render() {
   }
 
 
-  if userLetter == randomWord[i] {
-
+  if (userLetter == randomWord[i]) {
+    randomWord.splice(i)
   }
   console.log(wordLetters);
 }
